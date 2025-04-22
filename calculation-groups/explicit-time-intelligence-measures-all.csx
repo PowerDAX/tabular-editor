@@ -7,7 +7,8 @@
 // variables
 // 1 overwrites existing measures, 0 preserves existing measures
 // proposed enhancement: utilize an annotation to determine if a measure should be overwritten. this would allow you to overwrite all measures except for those annotated to not overwrite.
-var overwriteExistingMeasures = 0; 
+// proposed enhancement: do not delete measure, just set values
+var overwriteExistingMeasures = 0;
 // enter your calculation group
 // proposed enhancement: change to a list to allow for multiple calculation groups
 var timeIntelligenceCalculationGroup = "Time Intelligence";
